@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes" ?>
+
+<mm_report>
+	<mm_reportname>	ResultsReport.xml</mm_reportname>
+	<mm_reportdate>Tue Mar 21 16:16:56 2023</mm_reportdate>
+	<mm_reportlocation>C:\\portfolio_project\</mm_reportlocation>
+	<mm_reportitem>
+		<mm_statusicon>8</mm_statusicon>
+		<mm_displaystr><![CDATA[BENJAMIN WARREN PORTFOLIO.html]]></mm_displaystr>
+		<mm_file>C:\portfolio_project\BENJAMIN WARREN PORTFOLIO.html</mm_file>
+		<mm_linenumber>40</mm_linenumber>
+		<mm_description><![CDATA[Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.  [html5]]]></mm_description>
+		<mm_reportedby></mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>8</mm_statusicon>
+		<mm_displaystr><![CDATA[BENJAMIN WARREN PORTFOLIO.html]]></mm_displaystr>
+		<mm_file>C:\portfolio_project\BENJAMIN WARREN PORTFOLIO.html</mm_file>
+		<mm_linenumber>44</mm_linenumber>
+		<mm_description><![CDATA[Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.  [html5]]]></mm_description>
+		<mm_reportedby></mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>8</mm_statusicon>
+		<mm_displaystr><![CDATA[BENJAMIN WARREN PORTFOLIO.html]]></mm_displaystr>
+		<mm_file>C:\portfolio_project\BENJAMIN WARREN PORTFOLIO.html</mm_file>
+		<mm_linenumber>49</mm_linenumber>
+		<mm_description><![CDATA[Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.  [html5]]]></mm_description>
+		<mm_reportedby></mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>8</mm_statusicon>
+		<mm_displaystr><![CDATA[BENJAMIN WARREN PORTFOLIO.html]]></mm_displaystr>
+		<mm_file>C:\portfolio_project\BENJAMIN WARREN PORTFOLIO.html</mm_file>
+		<mm_linenumber>54</mm_linenumber>
+		<mm_description><![CDATA[Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.  [html5]]]></mm_description>
+		<mm_reportedby></mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>8</mm_statusicon>
+		<mm_displaystr><![CDATA[BENJAMIN WARREN PORTFOLIO.html]]></mm_displaystr>
+		<mm_file>C:\portfolio_project\BENJAMIN WARREN PORTFOLIO.html</mm_file>
+		<mm_linenumber>59</mm_linenumber>
+		<mm_description><![CDATA[Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.  [html5]]]></mm_description>
+		<mm_reportedby></mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>9</mm_statusicon>
+		<mm_displaystr><![CDATA[BENJAMIN WARREN PORTFOLIO.html]]></mm_displaystr>
+		<mm_file>C:\portfolio_project\BENJAMIN WARREN PORTFOLIO.html</mm_file>
+		<mm_linenumber>35</mm_linenumber>
+		<mm_description><![CDATA[Article lacks heading. Consider using h2 - h6 elements to add identifying headings to all articles.  [html5]]]></mm_description>
+		<mm_reportedby></mm_reportedby>
+	</mm_reportitem>
+	<mm_reportitem>
+		<mm_statusicon>10</mm_statusicon>
+		<mm_displaystr><![CDATA[BENJAMIN WARREN PORTFOLIO.html]]></mm_displaystr>
+		<mm_file>C:\portfolio_project\BENJAMIN WARREN PORTFOLIO.html</mm_file>
+		<mm_linenumber>24</mm_linenumber>
+		<mm_description><![CDATA[Bad value Information Page.html for attribute href on element a : Illegal character in path segment: space is not allowed.  [html5]]]></mm_description>
+		<mm_reportedby></mm_reportedby>
+	</mm_reportitem>
+</mm_report>
