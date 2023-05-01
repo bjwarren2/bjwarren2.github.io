@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact information page for Benjamin Warren">
+  <title>Contact Information</title>
+  <style type="text/css">
+    @import url("css/multiColumnTemplate.css");
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type=text], textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      resize: vertical;
+    }
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+	  <header>
+    <div class="primary_header">
+      <h1 class="title"> BENJAMIN WARREN&nbsp;</h1>
+    </div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+        <li><a href="index.html">ABOUT</a></li>
+        <li><a href="page_3.html">USDA ARS</a></li>
+        <li><a href="page_4.html">HORTICULTURAL ASSISTANT</a></li>
+        <li><a href="page_5.html">PARK RANGER (INTERNSHIP)</a></li>
+        <li><a href="page_6.html">STATE PARK MANTINENCE</a></li>
+        <li><a href="page_7.html">DEPARTMENT OF HOMELAND SECURITY</a></li>
+		<li class="text-align: center"><a href="contact.html">CONTACT</a></li>
+	</ul>
+    </nav>
+  </header>
+<body>
+
+  <p>Benjamin Warren<br>
+    104 Coorsdale Drive<br>
+    Cary, NC 27511&nbsp; &nbsp;&nbsp;<br>
+    Benjwarren95@gmail.com<br>
+    919-673-1660</p>
+  
+  <form action="process-form.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Your email.." required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="I hope this is what you were looking for Mr. Steffes. Sorry about the confusion!" style="height:200px" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
