@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact information page for Benjamin Warren">
+  <title>Contact Information</title>
+  <style type="text/css">
+    @import url("css/multiColumnTemplate.css");
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type=text], textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      resize: vertical;
+    }
+    input[type=submit] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Contact Information - Benjamin Warren Web, Pgm, And Db Foundation (2023SP.CTI.110.0001)</h1>
+  <p>Benjamin Warren<br>
+    104 Coorsdale Drive<br>
+    Cary, NC 27511&nbsp; &nbsp;&nbsp;<br>
+    Benjwarren95@gmail.com<br>
+    919-673-1660</p>
+  
+  <form action="process-form.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="Your email.." required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="I hope this is what you were looking for Mr. Steffes. Sorry about the confusion!" style="height:200px" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
